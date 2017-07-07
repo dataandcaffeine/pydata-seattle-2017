@@ -1,0 +1,12 @@
+name: lifetime-value
+channels:
+  - conda-forge
+dependencies:
+  - python=3.5
+  - pymc3
+  - pandas
+  - matplotlib
+  - jupyter
+  - sklearn
+  - pip:
+    - lifetimes
